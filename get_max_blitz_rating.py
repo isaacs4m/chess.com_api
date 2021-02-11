@@ -1,3 +1,5 @@
+# Esse script utiliza o arquivo br_players.csv, que foi obtido colocando apenas BR no country_codes.txt e
+# executando o script get_player_stats.py!
 players_file = open('br_players.csv','r')
 players = players_file.readlines()
 players = [x.strip('\n') for x in players]
